@@ -7,10 +7,10 @@ body {
 } 
  
 h1{
-color:whitesmoke;
-text-align: center;
-margin-top: 20px;
-margin-bottom: 20px;
+    color:whitesmoke;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .card-img-top{
     border-radius: 80%;
@@ -23,16 +23,16 @@ margin-bottom: 20px;
 }
 
 
-/* img{
+/* img{ 
     border-radius: 50%;
     border-style: inset;
     border-color:whitesmoke;
     width:25px;
     height: 275px;
     background-origin: 50% 50%;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat; 
 
-}
+ } */
 hr{background-size: cover;
     border: 10px solid white;
     border-radius: 25px;
@@ -43,13 +43,25 @@ hr{background-size: cover;
 }
 .row{
     text-align: center;
+
 }
 .contact {
     margin: auto;
     color: white;
     padding: 65px 65px;
 }
+#abtimg{
+    width:200px;
+    height: 275px;
+    background-origin: 50% 50%; 
+    background-repeat: no-repeat; 
+}
 
+.footer-bottom{
+    color: white;
+    font-size: .9em;
+    text-align: center;
     
     
+}
     
