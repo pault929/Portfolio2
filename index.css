@@ -1,0 +1,55 @@
+body {
+    background:rgba(91, 112, 154, 0.598);
+    font-family: 'Parisienne', cursive;
+    color: black;
+    font-size: 30px;
+    color: red;
+} 
+ 
+h1{
+color:whitesmoke;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.card-img-top{
+    border-radius: 80%;
+    
+}
+.card{
+    background-color: rgb(101, 107, 126);
+    margin-top: 20px;
+    padding-top: 40px;
+}
+
+
+/* img{
+    border-radius: 50%;
+    border-style: inset;
+    border-color:whitesmoke;
+    width:25px;
+    height: 275px;
+    background-origin: 50% 50%;
+    background-repeat: no-repeat; */
+
+}
+hr{background-size: cover;
+    border: 10px solid white;
+    border-radius: 25px;
+}
+
+.col-4{
+    background-color: yellow;
+}
+.row{
+    text-align: center;
+}
+.contact {
+    margin: auto;
+    color: white;
+    padding: 65px 65px;
+}
+
+    
+    
+    
