@@ -1,11 +1,15 @@
 body {
-    background:rgba(91, 112, 154, 0.598);
+    background:#99ceff;
     font-family: 'Parisienne', cursive;
     color: black;
     font-size: 30px;
     color: red;
 } 
- 
+.navbar-brand{
+    font-size: 1em;
+    
+}
+
 h1{
     color:whitesmoke;
     text-align: center;

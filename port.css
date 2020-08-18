@@ -1,11 +1,17 @@
-body {
-    background:rgba(91, 112, 154, 0.598);
+html, body {
+    height:100%;
+    margin: 0;
+    background:#99ceff;
     font-family: 'Parisienne', cursive;
     color: black;
     font-size: 30px;
     color: red;
 } 
- 
+.navbar-brand-expand{
+    font-size: 1em;
+    color: red;
+}
+
 h1{
 color:whitesmoke;
 text-align: center;
