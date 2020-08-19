@@ -3,107 +3,131 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport:" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="boxes.css" style="text/css">
 
-    <title>Boxes</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+crossorigin="anonymous"> 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&family=Parisienne&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="boxes.css">
+
+    
+<title>Portfolio</title>
   </head>
-  <body>
-    <header>
-      <div class="container">
-        <nav>
-          <h1 class="toro"><a href="./../index.html">Paul<span>IGNACIO</span>Toro</a></h1>
-          <ul>
-            <li><a href="./../aboutpage/aboutpage.html">About</a></li>
-            <!-- <li><a href="boxes/boxes.html">Projects</a></li> -->
-            <li><a href="http://www.qcc.cuny.edu/">QCC</a></li>
-            <!-- <li><a href="julio/julio.html">Video</a></li> -->
-          </ul>
-        </nav>
+  <body> 
+  <div class="navarea">
+    <nav class="navbar navbar-expand-sm navbar-dark" style="background-color:#b3daff"> 
+      <!-- <nav class="navbar navbar-light" style="background-color: #e6f3ff;"> -->
+      <a class="navbar-brand" style="color:red" href="https://www.torosnap.com/">P.I.T</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../contact.html">Contact Us</a>
+          </li>    
+        </ul>
+      </div>  
+    </nav>
+    </div>
+    
 
-
-      </div>
-    </header>
-
-<center>
-  <div class="view view-first">
-     <img src="airplane.jpg" />
+    <section id="gallery">
+    <div class="view view-first">
+       <img src="airplane.jpg" />
+       <div class="mask">
+       <h2>Travel</h2>
+       <p>Boca Del Toro Panama</p>
+           <a href="../project1/project1.html" class="info">Read More</a>
+       </div>
+  </div>
+  
+  <div class="view view-second">
+       <img src="crudo3.jpg" />
+       <div class="mask">
+       <h2>Manhatten's Best Crudo</h2>
+       <p>Learn about "Italian Sushi"</p>
+           <a href="../../fisssss/esca.html" class="info">Read More</a>
+       </div>
+  </div>
+  
+  <div class="view view-third">
+       <img src="poetry.jpg" />
+       <div class="mask">
+       <h2>Poetry in Motion</h2>
+       <p>Reverse Project</p>
+           <a href="../../poem/poem.html" class="info">Read More</a>
+       </div>
+  </div>
+  
+  <div class="view view-forth">
+       <img src="beach.jpg" />
+       <div class="mask">
+       <h2>One Day soon</h2>
+       <p>Destin Florida</p>
+           <a href="https://www.cityofdestin.com/" class="info">Read More</a>
+       </div>
+  </div>
+  
+  <div class="view view-fifth">
+     <img src="bolivar.jpg" />
      <div class="mask">
-     <h2>Travel</h2>
-     <p>Boca Del Toro Panama</p>
-         <a href="./../project1/project1.html" class="info">Read More</a>
+     <h2>Tribute</h2>
+     <p>Simon Bolivar - Pioneer</p>
+         <a href="../../Tribute3/simon.html" class="info">Read More</a>
      </div>
-</div>
-
-<div class="view view-second">
-     <img src="crudo3.jpg" />
+  </div>
+  
+  <div class="view view-sixth">
+     <img src="camera.jpg" />
      <div class="mask">
-     <h2>Manhatten's Best Crudo</h2>
-     <p>Learn about "Italian Sushi"</p>
-         <a href="./../fisssss/esca.html" class="info">Read More</a>
+     <h2>J.A. Photography</h2>
+     <p>Creating memories one shot.....</p>
+         <a href="../../julio/events.html" class="info">Read More</a>
      </div>
-</div>
-
-<div class="view view-third">
-     <img src="poetry.jpg" />
+  </div>
+  
+  <div class="view view-eighth">
+     <img src="usa.jpg" />
      <div class="mask">
-     <h2>Poetry in Motion</h2>
-     <p>Reverse Project</p>
-         <a href="./../poem/poem.html" class="info">Read More</a>
+     <h2>Image Hover Project</h2>
+     <p>Learn About your state</p>
+         <a href=" ../../imagemap/index.html" class="info" >Read More</a>
      </div>
-</div>
-
-<div class="view view-forth">
-     <img src="beach.jpg" />
+  </div>
+  
+  <div class="view view-seventh">
+     <img src="swap.jpeg" />
      <div class="mask">
-     <h2>One Day soon</h2>
-     <p>Destin Florida</p>
-         <a href="https://www.cityofdestin.com/" class="info">Read More</a>
+     <h2>Image Swap Project</h2>
+     <p>Swapping Images</p>
+         <a href="../../imageswap/indx.html" class="info">Read More</a>
      </div>
-</div>
+  </div>
 
-<div class="view view-fifth">
-   <img src="bolivar.jpg" />
-   <div class="mask">
-   <h2>Tribute</h2>
-   <p>Simon Bolivar - Pioneer</p>
-       <a href="./../Tribute3/simon.html" class="info">Read More</a>
+     <div class="view view-ninth">
+        <img src="forms.jpg" />
+        <div class="mask">
+        <h2>Forms Projects</h2>
+        <p>Input Form</p>
+            <a href="../../forms.html" class="info">Read More</a>
+        </div>
    </div>
-</div>
+  </section>
 
-<div class="view view-sixth">
-   <img src="camera.jpg" />
-   <div class="mask">
-   <h2>J.A. Photography</h2>
-   <p>Creating memories one shot.....</p>
-       <a href="./../julio/events.html" class="info">Read More</a>
-   </div>
-</div>
 
-<div class="view view-eighth">
-   <img src="usa.jpg" />
-   <div class="mask">
-   <h2>Image Hover Project</h2>
-   <p>Learn About your state</p>
-       <a href=" ./../imagemap/index.html" class="info" >Read More</a>
-   </div>
-</div>
 
-<div class="view view-seventh">
-   <img src="swap.jpeg" />
-   <div class="mask">
-   <h2>Image Swap Project</h2>
-   <p>Swapping Images</p>
-       <a href="./../imageswap/indx.html" class="info">Read More</a>
-   </div>
-</div>
-   <div class="view view-ninth">
-      <img src="forms.jpg" />
-      <div class="mask">
-      <h2>Forms Projects</h2>
-      <p>Input Form</p>
-          <a href="./../forms.html" class="info">Read More</a>
-      </div>
-</div>
-</center>
-  </body>
+</body>
 </html>
+  
