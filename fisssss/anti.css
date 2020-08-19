@@ -1,0 +1,84 @@
+body
+{
+  /* background-image:url(images/esca.jpg); */
+  background: #a9dbed  ;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  #a9dbed ;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 20px;
+  opacity: .5;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: white;}
+
+ul.topnav li a.active {background-color: yellow}
+
+ul.topnav li.right {float: right;}
+
+a {
+  text-align: center;
+  font-style: italic;
+  color: red;
+  font-size: 2em;
+
+}
+.swiper-container {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom:50px;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 380px;
+    background:lightblue;
+
+
+}
+.swiper-slide .imgBx
+{
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+.swiper-slide .imgBx img
+{
+  width: 100%;
+}
+.swiper-slide .details{
+  box-sizing: border-box;
+  padding: 20px;
+}
+.swiper-slide .details h3{
+  margin:0;
+  padding: 0;
+  font-size: 20px;
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {float: none;}
+}

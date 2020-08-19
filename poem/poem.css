@@ -1,0 +1,53 @@
+/* CSS layout */
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	min-width: 600px;
+	text-align: center;
+	padding
+}
+
+#left_col {
+	float: left;
+	width: 200px;
+}
+
+#right_col {
+	float: right;
+	width: 200px;
+}
+
+#page_content {
+	margin-right: 200px;
+	margin-left: 200px;
+
+}
+
+#container {
+
+	background-image: url('image/HillsinFog.jpg');
+	background-repeat: no-repeat;
+	max-width: 1024px;
+	max-height:768px;;
+	margin-right: auto;
+	margin-left: auto;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font-family: "Monotype Corsiva";
+	font-size: small;
+	color: red;
+	background: linear-gradient(to bottom, #333, #333 50%, #eee 75%, #333 75%);
+
+}
+p{
+	font-size: 30px;
+}
+/* br{
+	font-size:20em;
+}  */
