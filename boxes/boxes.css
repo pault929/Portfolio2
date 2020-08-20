@@ -53,9 +53,8 @@ h1{
     max-width:120rem;
     width:90%;
     margin: 0 auto;
-    background-color: red; 
+ 
   }
-
 
   .view {
     width: 300px;
@@ -111,7 +110,7 @@ h1{
     box-shadow: 0 0 1px #000
 }
 .view a.info:hover {
-    box-shadow: 0 0 10px red;
+    box-shadow: 0 0 10px yellow;
 }
 
 .view-first img {
@@ -490,7 +489,16 @@ h1{
     transition-delay: 0.2s;
 }
 
-    
+.footer-bottom{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    font-size: 5em;
+    text-align: center; 
+    font-family: 'Parisienne', cursive; 
+}    
      
   
   
@@ -519,7 +527,7 @@ h1{
       font-size: 2em; 
   } */
   
-    @keyframes slideIn{
+    /* @keyframes slideIn{
       from{
           }
       to{
@@ -959,4 +967,4 @@ h1{
       transition-delay: 0.2s;
   }
   }
-  
+   */
