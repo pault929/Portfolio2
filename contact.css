@@ -6,6 +6,15 @@ body {
     color: red;
 } 
 
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 10;
+  font-size: 30;
+  background-color: red;
+}
+
 .navbar-brand{
     font-size: 1em;
     

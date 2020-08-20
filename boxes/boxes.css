@@ -4,11 +4,22 @@ body{
     font-family: "Roboto Cn", sans-serif;
     
 } 
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    font-size: 30px;
+    background-color: red;
+  }
+
 .navbar-brand{
+    font-size: 1em;
     font-family: 'Parisienne', cursive;
+    /* font-family: 'Parisienne', cursive;
     color: black;
     font-size: 30px;
-    color: red;
+    color: red; */
 }
 .nav-item{
     font-family: 'Parisienne', cursive;
