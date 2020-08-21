@@ -38,7 +38,11 @@ body{
     color: white;
   } 
     
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
 
+   }
   
 .navbar-brand{
     font-size: 1em;
