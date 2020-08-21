@@ -66,12 +66,12 @@ h1{
     margin-top: 20px;
     padding-top: 40px;
 }
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
-}
+} */
 
 /* img{ 
     border-radius: 50%;
@@ -98,12 +98,20 @@ hr{background-size: cover;
     color: red;
     padding: 65px 65px;
 }
-#abtimg{
-    width:200px;
-    height: 275px;
-    background-origin: 50% 50%; 
-    background-repeat: no-repeat; 
+img{
+    width:300px;
+    height: 350px;
+    /* background-origin: 50% 50%;  */
+    /* background-repeat: no-repeat;  */
+    border-radius: 50%;
+    border-color: yellow;
+    border: solid;
 }
+
+/* .p{
+    padding-bottom: 80px;
+    margin-bottom:90px;
+} */
 
 .footer-bottom{
     position: fixed;
