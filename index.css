@@ -13,6 +13,7 @@ body {
     padding: 10px;
     font-size: 30px;
     background-color: red;
+    color: green;
   }
   .fa {
     padding: 10px;
@@ -44,7 +45,11 @@ body {
 .navbar-brand{
     font-size: 1em;
     font-family: 'Parisienne', cursive;
+    
 }
+/* .nav-link{
+    color:red; */
+
 
 h1{
     color:whitesmoke;
@@ -83,16 +88,14 @@ hr{background-size: cover;
     border-radius: 25px;
 }
 
-.col-4{
-    background-color: yellow;
-}
+
 .row{
     text-align: center;
 
 }
 .contact {
     margin: auto;
-    color: white;
+    color: red;
     padding: 65px 65px;
 }
 #abtimg{
