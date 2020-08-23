@@ -1,9 +1,10 @@
 body {
     background:#99ceff;;
-    font-family: 'Parisienne', cursive;
+    /* font-family: 'Parisienne', cursive; */
+    font-family: 'Orbitron', sans-serif;
     color: black;
-    font-size: 30px;
-    color: red;
+    font-size: 20px;
+    color: black;
 } 
 
 .sticky {
@@ -11,7 +12,7 @@ body {
     position: sticky;
     top: 0;
     padding: 10px;
-    font-size: 30px;
+    font-size: 20px;
     background-color: red;
     color: green;
   }
@@ -47,8 +48,8 @@ body {
    }
 .navbar-brand{
     font-size: 1em;
-    font-family: 'Parisienne', cursive;
-    
+    /* font-family: 'Parisienne', cursive; */
+    font-family: 'Orbitron', sans-serif;
 }
 /* .nav-link{
     color:red; */

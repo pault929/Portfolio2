@@ -1,8 +1,9 @@
 body {
     background:#99ceff;
-    font-family: 'Parisienne', cursive;
+    /* font-family: 'Parisienne', cursive; */
+    font-family: 'Orbitron', sans-serif;
     color: black;
-    font-size: 30px;
+    font-size: 20px;
     color: red;
 } 
 
@@ -11,7 +12,7 @@ body {
   position: sticky;
   top: 0;
   padding: 10;
-  font-size: 30;
+  font-size: 20;
   background-color: red;
 }
 .fa {
