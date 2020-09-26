@@ -4,6 +4,13 @@ body{
     /* font-family: "Roboto Cn", sans-serif; */
     font-family: 'Orbitron', sans-serif;
 } 
+.center {
+    text-align: center;
+
+  }
+
+
+
 .sticky {
     position: -webkit-sticky;
     position: sticky;
