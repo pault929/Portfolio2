@@ -1,13 +1,8 @@
 body{
     background:#99ceff;
     font-size: 20px;
-    /* font-family: "Roboto Cn", sans-serif; */
     font-family: 'Orbitron', sans-serif;
 } 
-.center {
-    text-align: center;
-
-  }
 
 
 
@@ -50,19 +45,12 @@ body{
     color: white;
 
    }
-  
 .navbar-brand{
     font-size: 1em;
     font-family: 'Orbitron', sans-serif;
-    /* font-family: 'Parisienne', cursive; */
-    /* font-family: 'Parisienne', cursive;
-    color: black;
-    font-size: 30px;
-    color: red; */
 }
 .nav-item{
     font-family: 'Orbitron', sans-serif;
-    /* font-family: 'Parisienne', cursive; */
     font-size:20px; 
 }
 
@@ -84,11 +72,11 @@ h1{
 }
 
 
-  *{
+  /* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+  } */
  
 
   body{
