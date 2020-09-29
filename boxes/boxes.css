@@ -104,7 +104,7 @@ h1{
     overflow: hidden;
     position: relative;
     text-align: center;
-    box-shadow: 1px 1px 2px #e6e6e6;
+    box-shadow: 15px 10px 10px red;
     cursor: default;
     background: #fff url(../images/bgimg.jpg) no-repeat center center
 }
@@ -135,7 +135,7 @@ h1{
     font-style: italic;
     font-size: 12px;
     position: relative;
-    color: #fff;
+    color:red;
     padding: 10px 20px 20px;
     text-align: center
 }
