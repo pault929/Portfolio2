@@ -1,8 +1,10 @@
 body {
-    background:#99ceff;;
+    background:#99ceff; 
+    /* background-image: url(fisssss/images/620228.jpg); */ 
     font-family: 'Orbitron', sans-serif;
     color: black;
     font-size: 20px;
+  
     
 } 
 
@@ -59,8 +61,7 @@ h1{
     margin-bottom: 20px;
 }
 /* .card-img-top{
-    border-radius: 80%; */
-    
+    border-radius: 80%;  */
 }
 .card{
     background-color: rgb(101, 107, 126);
@@ -86,11 +87,12 @@ hr{background-size: cover;
 img{
     width:300px;
     height: 350px;
-    /* background-origin: 50% 50%;  */
-    /* background-repeat: no-repeat;  */
-     border-radius: 50%;
-    border-color: yellow;
+    /* background-origin: 50% 50%; 
+    background-repeat: no-repeat;  */
+    border-radius: 50%;
+    border-color:red !important;
     border: solid; 
+   
 } 
 
 .footer-bottom{
@@ -98,11 +100,12 @@ img{
     left: 0;
     bottom: 0;
     width: 100%;
-    color: black;
+    color:white;
     font-size: .9em;
     text-align: center;
+    background-color:#99ceff; 
 }
-    
+
 ul{
     list-style: none;
 }
