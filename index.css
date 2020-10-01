@@ -4,6 +4,7 @@ body {
     font-family: 'Orbitron', sans-serif;
     color: black;
     font-size: 20px;
+    
   
     
 } 
@@ -50,6 +51,7 @@ body {
 .navbar-brand{
     font-size: 1em;
     font-family: 'Orbitron', sans-serif;
+    
 }
 
 
@@ -90,8 +92,10 @@ img{
     /* background-origin: 50% 50%; 
     background-repeat: no-repeat;  */
     border-radius: 50%;
-    border-color:red !important;
+    border-color:white !important;
     border: solid; 
+    box-shadow: 33px 36px 90px 2px red;
+    
    
 } 
 
