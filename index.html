@@ -67,16 +67,37 @@
           <br>
           <div class="row">
             <div class="col-lg-8 mb-8">
-              <!-- <p>Dad, Coder, Coach, Mentor, Bartender, Uncle, Colombian, Entreprenuer, and much more! But for now; -->
-                <!-- Coding is on the plate and the goal. This is my second go around in Coding, I finished a program at CUNY Tech Works recently and want to continue growing.  -->
-                <!-- I prefer the Web Design / Front End side of coding, but am liking and picking up more the back end.</p> -->
-             <!-- <p>Hobbies include: cooking, cycling, traveling - when possible, horseback riding, coaching, and public speaking of all things. I believe in giving back to the youth of our country/community and also to our seniors who need help and company; especially here in New York City. Ideally I'd like to find an opportunity with a company that provides growth and development, with the anticipation of working remotely from where ever my passport takes me.</p> -->
+              <!-- <p style="color:white; font-size: 20px;">Web Desing By El Toro</p> -->
             </div>
             <aside class="col-lg-4 mb-4"> 
               <div id = "abtimg">
                 <img src="images/profile.JPG" alt="Paul Ignacio Toro">
               </div>
               <br>
+              <div class="weather">
+                  <div class="col-sm-3 col-md-6 col-lg-4" id="left">
+                    <form id="todo-form" method="POST">
+                  <!-- <input type="text" name="todo-text" id="todo-text"/> -->
+                    </form>
+                    <p><span id="todo-count"></span></p>
+                    <ul id="todo-list" style="list-style-type:none"></ul>
+                </div>
+          
+      <!-- <div class="Weathcards"> -->
+          <div class="row2">
+               <div class="column">
+                 <div class="card1">
+                   <p id="datetime"></p>   
+                      <div id="description"></div>
+                      <h1 id="temp"></h1>
+                      <div id="location"></div>
+                  </div>
+     </div>   
+
+
+
+
+              </div>
               <!-- <h4>Certificates</h4>
                     <ul style=text-align:left >
                         <li><a href="images/CUNY.jpg" target="_blank">CUNY Tech Works</a></li>
@@ -107,6 +128,11 @@
         </div>
     </div>
   </footer>
-  </div>  
+  </div> 
+  <script>
+    var date = new Date();
+    document.getElementById("datetime").innerHTML = date.toLocaleString();
+    </script>
+    <script src="index.js"></script>
 </body>
 </html>
