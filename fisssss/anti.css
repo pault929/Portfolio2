@@ -39,8 +39,16 @@ a {
   font-style: italic;
   color: red;
   font-size: 2em;
-
 }
+  @keyframes slideIn{
+    from{
+        }
+    to{
+      transform: translateX(0)
+    }
+}
+
+
 .swiper-container {
     width: 100%;
     padding-top: 100px;
