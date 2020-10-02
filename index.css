@@ -133,7 +133,7 @@ ul{
   }
   
   /* Responsive columns */
-  @media screen and (max-width: 10px) {
+  @media screen and (max-width: 600px) {
     .column {
       width: 100%;
       display: block;
@@ -146,13 +146,13 @@ ul{
     box-shadow: 5px 10px white;
     padding: 16px;
     text-align: center;
-    background-color:#00a2ff;
+    background-color:#2b2d2e;
     border-radius:20px;
     opacity: 0.7;
     font-style: italic;
     font-weight: 800;
     color: white;
-    width: 75%;
+    width: 80%;
     
   
   }
