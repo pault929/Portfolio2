@@ -4,8 +4,6 @@ body{
     font-family: 'Orbitron', sans-serif;
 } 
 
-
-
 .sticky {
     position: -webkit-sticky;
     position: sticky;
@@ -70,14 +68,6 @@ h1{
     margin-top: 20px;
     padding-top: 40px;
 }
-
-
-  /* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  } */
- 
 
   body{
     overflow-x: hidden;
