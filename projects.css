@@ -1,0 +1,157 @@
+body {
+    /* background:#99ceff;  */
+    /* background-image: url(fisssss/images/620228.jpg); */ 
+    font-family: 'Orbitron', sans-serif;
+    color: black;
+    font-size: 20px;
+    
+  
+    
+} 
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    font-size: 20px;
+    background-color: red;
+
+  }
+  .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 90%;
+  }
+  
+  .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 90%;
+  }
+  
+  .fa:hover {
+      opacity: 1.5;
+      color:white;
+  }
+  
+  .fa-facebook {
+    background: blue;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: blue;
+    color: white;
+   }
+
+   .fa-linkedin {
+    background: #007bb5;
+    color: white;
+ }
+
+   .fa-github {
+    /* background: #f783ac; */
+    color: white;
+  }
+
+.navbar-brand{
+    font-size: 1em;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+
+
+
+h1{
+    color:whitesmoke;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    box-shadow: 5px 10px 10px red;
+}
+/* .card-img-top{
+    border-radius: 80%;  */
+}
+
+
+hr{background-size: cover;
+    border: 10px solid white;
+    border-radius: 25px;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+.footer-bottom{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color:red;
+    font-size: .9em;
+    text-align: center;
+    /* background-color:#99ceff;  */
+}
+
+ul{
+    list-style: none;
+}

@@ -57,6 +57,7 @@ h1{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    text-shadow:  2px 2px red;
 }
 
 .card-img-top{
@@ -518,7 +519,7 @@ h1{
     transition-delay: 0.2s;
 }
 
-.footer-bottom{
+/* .footer-bottom{
     position: fixed;
     left: 0;
     bottom: 0;
@@ -526,10 +527,20 @@ h1{
     color: black;
     font-size: .9em;
     text-align: center; 
-    /* font-family: 'Parisienne', cursive;  */
+     font-family: 'Parisienne', cursive;  
     font-family: 'Orbitron', sans-serif;
-}    
-     
+}     */
+.footer-bottom{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color:red;
+    font-size: .9em;
+    text-align: center;
+    /* background-color:#99ceff;  */
+}
+    
   
   
   

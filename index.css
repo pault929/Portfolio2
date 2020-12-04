@@ -1,5 +1,5 @@
 body {
-    background:#99ceff; 
+    /* background:#99ceff;  */
     /* background-image: url(fisssss/images/620228.jpg); */ 
     font-family: 'Orbitron', sans-serif;
     color: black;
@@ -76,7 +76,15 @@ h1{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    text-shadow:  2px 2px red;
 }
+
+h2{
+  text-align: center;
+  color: white;
+  text-shadow:  2px 2px red;
+}
+
 /* .card-img-top{
     border-radius: 80%;  */
 }
@@ -119,14 +127,14 @@ img{
     left: 0;
     bottom: 0;
     width: 100%;
-    color:white;
+    color:red;
     font-size: .9em;
     text-align: center;
-    background-color:#99ceff; 
+    /* background-color:#99ceff; 
 }
 
 ul{
-    list-style: none;
+    list-style: none; */
 }
 .column {
     float: right;
@@ -182,4 +190,9 @@ ul{
   
   }
   
-  
+  .bio{
+    background-color:white;
+    opacity: 0.8;
+    
+    
+  }

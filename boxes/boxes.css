@@ -1,5 +1,7 @@
 body{
-    background:#99ceff;
+    /* background-image: url(./boxes/fisssss/images/620228.jpg); */
+
+    /* background:#99ceff; */
     font-size: 20px;
     font-family: 'Orbitron', sans-serif;
 } 
@@ -59,6 +61,7 @@ h1{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    text-shadow:  2px 2px red;
 }
 
 .card-img-top{
@@ -106,7 +109,7 @@ h1{
     text-align: center;
     box-shadow: 15px 10px 10px red;
     cursor: default;
-    background: #fff url(../images/bgimg.jpg) no-repeat center center
+    /* background: #fff url(../images/bgimg.jpg) no-repeat center center */
 }
 .view .mask, .view .content {
     width: 300px;
@@ -528,7 +531,7 @@ h1{
     transition-delay: 0.2s;
 }
 
-.footer-bottom{
+/* .footer-bottom{
     position: fixed;
     left: 0;
     bottom: 0;
@@ -536,29 +539,18 @@ h1{
     color: black;
     font-size: .9em;
     text-align: center; 
-    /* font-family: 'Parisienne', cursive;  */
+    font-family: 'Parisienne', cursive; 
     font-family: 'Orbitron', sans-serif;
 }    
-     
+      */
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
- 
+      .footer-bottom{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color:red;
+        font-size: .9em;
+        text-align: center;
+        /* background-color:#99ceff;  */
+    }

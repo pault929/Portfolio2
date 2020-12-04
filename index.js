@@ -1,4 +1,3 @@
-// / var todo = "Orlando";
 
 $.getJSON("http://api.openweathermap.org/data/2.5/forecast?q=5128581&APPID=411910c4c4abb733221242b4d25a13f1&units=imperial", function(data){
 
@@ -6,9 +5,6 @@ console.log(data);
 
 // var icon ="http://openweathermap.org/img/wn/10d@2x.png";
 var icon ="http://api.openweathermap.org/data/2.5/forecast?q=5128581&APPID=411910c4c4abb733221242b4d25a13f1&units=imperial";
-
-
-
 
 var date = newDate();
   document.getElementById("datetime").innerHtml = date.toLocaleString();
@@ -38,23 +34,7 @@ function drawWeather( d ) {
 	document.getElementById('temp').innerHTML = fahrenheit + '&deg;';
 	document.getElementById('location').innerHTML = d.name;
   
-  
-//   document.getElementById('description2').innerHTML = description;
-// 	document.getElementById('temp2').innerHTML = celcius + '&deg;';
-// 	document.getElementById('location2').innerHTML = d.name;
-  
-  
-//   document.getElementById('description3').innerHTML = description;
-// 	document.getElementById('temp3').innerHTML = celcius + '&deg;';
-// 	document.getElementById('location3').innerHTML = d.name;
-  
-  
-//   document.getElementById('description4').innerHTML = description;
-// 	document.getElementById('temp4').innerHTML = celcius + '&deg;';
-// 	document.getElementById('location4').innerHTML = d.name;
-  
-  
-  
+    
   if( description.indexOf('rain') > 0 ) {
   	document.body.className = 'rainy';
   } else if( description.indexOf('cloud') > 0 ) {

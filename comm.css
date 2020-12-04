@@ -103,11 +103,11 @@ hr{background-size: cover;
     left: 0;
     bottom: 0;
     width: 100%;
-    color:white;
+    color:red;
     font-size: .9em;
     text-align: center;
-    background-color:#99ceff; 
-}
+    /* background-color:#99ceff; 
+} */
 
 ul{
     list-style: none;
