@@ -58,6 +58,12 @@ body {
     color: white;
  }
 
+
+ .fa-file-pdf {
+  background: red;
+  color: white;
+  font-size:3rem;
+}
    .fa-github {
     /* background: #f783ac; */
     color: white;
