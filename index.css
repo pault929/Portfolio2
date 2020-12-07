@@ -91,6 +91,11 @@ h2{
   text-shadow:  2px 2px red;
 }
 
+h3{
+  text-align: center;
+  color: white;
+  text-shadow:  2px 2px red;
+}
 /* .card-img-top{
     border-radius: 80%;  */
 }
