@@ -5,6 +5,12 @@ body{
     color: black;
 } 
 
+h2{
+    text-align: center;
+    color: white;
+    text-shadow:  2px 2px red;
+  }
+
 .sticky {
     position: -webkit-sticky;
     position: sticky;

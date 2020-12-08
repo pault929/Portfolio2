@@ -4,17 +4,14 @@ body {
     font-family: 'Orbitron', sans-serif;
     color: black;
     font-size: 20px;
-    
-    
-
 } 
 
 .sticky {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  padding: 10;
-  font-size: 20;
+  padding: 10px;
+  font-size: 20px;
  
 }
 .fa {
@@ -28,17 +25,17 @@ body {
 }
 
 .fa:hover {
-    opacity: 0.7;
+    opacity: 1.5;
     color: red;
 }
 
 .fa-facebook {
-  background: #3B5998;
+  background:blue;
   color: white;
 }
 
 .fa-instagram {
-  background: #125688;
+  background: blue;
   color: white;
 }
 .fa-linkedin {
@@ -48,15 +45,19 @@ body {
  } 
 .navbar-brand{
     font-size: 1em;
+    font-family: 'Orbitron', sans-serif;
+
     
 }
 
-  * {
+  /* * {
     box-sizing: border-box;
   }
-  
+   */
   h2, a{
     text-shadow:  2px 2px red;
+    text-align: center;
+    color: white;
   }
   /* Style inputs */
   input[type=text], select, textarea {
