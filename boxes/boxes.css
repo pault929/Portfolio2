@@ -4,6 +4,7 @@ body{
     /* background:#99ceff; */
     font-size: 20px;
     font-family: 'Orbitron', sans-serif;
+    color: black;
 } 
 
 
@@ -89,6 +90,7 @@ h1{
   a{
     text-decoration: none;
     color:#eee; 
+    text-shadow:  2px 2px red;
   }
    
     .container{

@@ -20,17 +20,41 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="index.css">   
 <style>
- body {
+body {
    background-image: url(fisssss/images/620228.jpg);
  }
+/* * {
+  box-sizing: border-box;
+} */
+
+.column1 {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .column1 {
+    width: 100%;
+  }
+}
+ 
 </style>
 
 <title>Paul I Toro Portfolio Page</title>
 </head>
 <body>
   <!-- <div class="sticky"> -->
-    <nav class="navbar navbar-expand-sm navbar-dark"> 
-        <a class="navbar-brand" style="color:red" href="https://www.torosnap.com/">P.I.T</a>
+    <nav class="navbar navbar-expand-sm navbar"> 
+        <a class="navbar-brand" href="https://www.torosnap.com/" style="color:white" >P.I.T</a>
         <a href="https://www.facebook.com/torosnap/" target="_blank" class="fa fa-facebook"></a>
         <a href="https://www.instagram.com/torosnap/" target="_blank" class="fa fa-instagram"></a>
         <a href="https://www.linkedin.com/in/paul-ignacio-toro-0459b044/" target="_blank" class="fa fa-linkedin"></a>
@@ -45,10 +69,10 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" style="color:red" href="#">Home</a>
+              <a class="nav-link"  href="#" style="color:white" >Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" style="color:red" href="projects.html">Projects</a>
+              <a class="nav-link" href="projects.html" style="color:white" >Projects</a>
             </li>
             <!-- <li class="nav-item">
               <a class="nav-link" style="color:red" href="columbia.html">Columbia Projects</a>
@@ -57,49 +81,54 @@
               <a class="nav-link" style="color:red" href="./boxes/boxes.html">QCC Projects</a>
             </li> -->
             <li class="nav-item">
-              <a class="nav-link" style="color:red" href="aboutme.html">About Me</a>
+              <a class="nav-link" href="aboutme.html" style="color:white" >About Me</a>
             </li>  
             <li class="nav-item">
-              <a class="nav-link" style="color:red" href="contact.html">Contact</a>
+              <a class="nav-link" href="contact.html" style="color:white" >Contact</a>
             </li>    
           </ul>
         </div>  
       </nav>
     </div>
-       <section id ="gallery">
+      <section id ="gallery">
         <div class="container">
           <header>
               <h1>Paul Ignacio Toro  <a href="PDF/tororese2019.pdf" target="_blank" class="fas fa-file-pdf"></a></h1>
-              <h3 >Paultoro101@gmail.com 914.312.5890</h3>
               
           </header>
           <hr>
-          <br>
-          <div class="row">
-            <div class="col-lg-8 mb-8">
-              <!-- <p style="color:white; font-size: 20px;">Web Desing By El Toro</p> -->
-            </div>
-            <aside class="col-lg-4 mb-4"> 
-              <div id = "abtimg">
-                <img src="images/pictures/profile2.jpg" alt="Paul Ignacio Toro">
-              </div>
-              <br>
-              
-    <!-- <div class="Weathcard"> -->
-          <div class="row2">
-               <div class="column">
-                 <div class="card1">
-                   <p id="datetime"></p>   
-                      <div id="description"></div>
-                      <h1 id="temp"></h1>
-                      <div id="location"></div>
-                  </div>
-     </div>   
-            </aside> 
+         
+     <div class="row1">
+      <div class="column1">
+        <h3 style="color:white">Personal Info </h3>
+        <img src="images/pictures/profile2.jpg" alt="Snow" style="width:100%">
+        <h5>paultoro101@gmail.com</h5>
+        <h5>1(914)312-5890</h5>
+        <h3><a href="https://github.com/pault929">Git Hub</a></h3>
+      </div>
+      <div class="column1">
+        <h3 style="color:white" >Read Me demo</h3>
+        <img src="images/pictures/readme.jpg" alt="Forest" style="width:100%">
+        <h3><a href="https://github.com/pault929/Can-you-READ-a-READaME">Git Hub Repo</a></h3>
+        <h3><a href="#">Live Demo!</a></h3>
+      </div>
+      <div class="column1">
+        <h3 style="color:white">Scheduler demo</h3>
+        <img src="images/pictures/sche2.JPG" alt="Forest" style="width:100%">
+        <h3><a href="https://github.com/pault929/SchedulerHomeWork">Git Hub Repo</a></h3>
+        <h3><a href="https://pault929.github.io/SchedulerHomeWork/">Live Demo!</a></h3>
+      </div>
+      <div class="column1">
+        <h3 style="color:white">Start Quiz demo</h3>
+        <img src="images/pictures/quizp.JPG" alt="Mountains" style="width:100%">
+        <h3><a href="https://github.com/pault929/Quiz">Git Hub Repo</a></h3>
+        <h3><a href="https://pault929.github.io/Quiz/">Live Demo!</a></h3>
+      </div>
+    </div>
           </div>
         </div>
       </section>
-             
+               
     <br>
     <br>
     <br>

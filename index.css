@@ -4,6 +4,7 @@ body {
     font-family: 'Orbitron', sans-serif;
     color: black;
     font-size: 20px;
+    color: white;
     
   
     
@@ -15,7 +16,7 @@ body {
     top: 0;
     padding: 10px;
     font-size: 20px;
-    background-color: red;
+    background-color:black;
 
   }
   .fa {
@@ -91,9 +92,9 @@ h2{
   text-shadow:  2px 2px red;
 }
 
-h3{
+h3, h5 , a{
   text-align: center;
-  color: white;
+  color:black;
   text-shadow:  2px 2px red;
 }
 /* .card-img-top{
@@ -138,7 +139,7 @@ img{
     left: 0;
     bottom: 0;
     width: 100%;
-    color:red;
+    color:black;
     font-size: .9em;
     text-align: center;
     /* background-color:#99ceff; 
