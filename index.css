@@ -105,6 +105,12 @@ hr{background-size: cover;
     color: red;
     padding: 65px 65px;
 }
+
+#logo{
+  background-color: none;
+  box-shadow:none;
+  border:none;
+}
 img{
     width:250px;
     height: 250px;
